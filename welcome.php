@@ -52,6 +52,9 @@
 			<div class="news_container">
 				<?php showRSS("http://feeds.feedburner.com/PublicoRSS", "3"); ?>
 			</div>
+			<div class="news_container">
+				<?php showRSS("http://www.josesaramago.org/category/noticias/feed/", "4"); ?>
+			</div>
 		<!--	<div class="news_container">
 				<?php showRSS("http://feeds.ojogo.pt/OJ-Ultimas", "4"); ?>
 		    </div>

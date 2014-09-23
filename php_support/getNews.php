@@ -10,7 +10,7 @@
 		$x=$xmlDoc->getElementsByTagName('item');
 
 		//array for images
-		$images = array("zerozero.png","visao.png","expresso.png", "publico.png");
+		$images = array("zerozero.png","visao.png","expresso.png", "publico.png", "saramago.png");
 
 		$breaking_news = True;					
 		for ($i=0; $i<=5; $i++) {
