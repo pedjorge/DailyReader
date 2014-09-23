@@ -27,8 +27,7 @@
 				<li><a href="#">Tech</a></li>
 			</ul>
 		</header>
-
-		<div id="container">
+		<div id="menu">
 			<div id="logos">
 				<ul>
 					<li><a href="#"><h2><em>ZeroZero</em></h2></a></li>
@@ -39,6 +38,8 @@
 					<li><h2><em>A Bola</em></h2></li>
 				</ul>
 			</div>
+		</div>
+		<div id="container">
 			<div class="news_container">
 				<?php showRSS("http://www.zerozero.pt/rss/noticias.php", "0"); ?>
 			</div>	
