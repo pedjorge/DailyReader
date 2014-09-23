@@ -46,23 +46,23 @@
 				</ul>
 			</div>
 			<div class="news_container">
-				<?php showRSS("http://www.zerozero.pt/rss/noticias.php"); ?>
+				<?php showRSS("http://www.zerozero.pt/rss/noticias.php", "0"); ?>
 			</div>	
 			<div class="news_container">
-				<?php showRSS("http://visao.sapo.pt/static/rss/visao-geral.xml"); ?>
+				<?php showRSS("http://visao.sapo.pt/static/rss/visao-geral.xml", "1"); ?>
 			</div>
 			<div class="news_container">
-				<?php showRSS("http://expresso.sapo.pt/static/rss/atualidade--arquivo_23412.xml"); ?>
+				<?php showRSS("http://expresso.sapo.pt/static/rss/atualidade--arquivo_23412.xml", "2"); ?>
 			</div>
 			<div class="news_container">
-				<?php showRSS("http://feeds.feedburner.com/PublicoRSS"); ?>
+				<?php showRSS("http://feeds.feedburner.com/PublicoRSS", "3"); ?>
 			</div>
-			<div class="news_container">
-				<?php showRSS("http://feeds.ojogo.pt/OJ-Ultimas"); ?>
+		<!--	<div class="news_container">
+				<?php showRSS("http://feeds.ojogo.pt/OJ-Ultimas", "4"); ?>
 		    </div>
 			<div class="news_container">
-				<?php showRSS("http://www.abola.pt/rss/index.aspx"); ?>
-			</div> 
+				<?php showRSS("http://www.abola.pt/rss/index.aspx", "5"); ?>
+			</div> -->
 		</div>
 		<div style="clear:both;"></div> 
 		<footer>

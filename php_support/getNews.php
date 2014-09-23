@@ -1,5 +1,6 @@
 <?php
-	function showRSS($url) {
+
+	function showRSS($url, $index) {
 		$xml=$url;
 						
 		$xmlDoc = new DOMDocument();
@@ -7,7 +8,10 @@
 								
 		//get and output "<item>" elements
 		$x=$xmlDoc->getElementsByTagName('item');
-		
+
+		//array for images
+		$images = array("zerozero.png","visao.png","expresso.png", "publico.png");
+
 		$breaking_news = True;					
 		for ($i=0; $i<=5; $i++) {
 		    $item_title=$x->item($i)->getElementsByTagName('title')->item(0)->childNodes->item(0)->nodeValue;
@@ -22,7 +26,7 @@
 
 			if ($breaking_news) { 
 				echo ("<div class='news'><div class='breaking_news'>
-						<div class='image'><img class='image_logo' src='images/zerozero.png'></div>" 
+						<div class='image'><img class='image_logo' src='images/" . $images[$index] . "'></div>" 
 					  . "<div class='info'><div class='time_container'>" . $time . "</div>"
 					  . "<div class='breaking_news_link'><a class='news_link' href='" . $item_link  . "' >" 
 					  . $item_title . "</a></div>"
@@ -40,8 +44,7 @@
 					  . "</div>"
 					);
 			} // else
-
 		} // for
-					echo "</div>";
+		echo "</div>";
 	} // function
 ?>
