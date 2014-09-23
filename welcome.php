@@ -13,12 +13,6 @@
 	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans" />
 		<link rel="icon" href="favicon.ico" />
 
-		<!-- Refresh every 15 minutes -->
-		<meta http-equiv="refresh" content="900">
-	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono">
-	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans" />
-		<link rel="icon" href="favicon.ico" />
-
 		<?php include 'php_support/getNews.php'; ?>
 		
 	</head>
