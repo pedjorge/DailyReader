@@ -29,14 +29,6 @@
 		</header>
 		<div id="menu">
 			<div id="logos">
-				<ul>
-					<li><a href="#"><h2><em>ZeroZero</em></h2></a></li>
-					<li><h2><em>Visão</em></h2></li>
-					<li><h2><em>Expresso</em></h2></li>
-					<li><h2><em>Publico</em></h2></li>
-					<li><h2><em>O Jogo</em></h2></li>
-					<li><h2><em>A Bola</em></h2></li>
-				</ul>
 			</div>
 		</div>
 		<div id="container">
