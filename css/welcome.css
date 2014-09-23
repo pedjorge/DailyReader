@@ -124,14 +124,22 @@ h2 {
 	border-radius: 10px;
 }
 
-.image_logo {
+.image {
+	height: 98px;
+	width: 182px;
 	float: left;
 	margin: 0 27px 15px 10px;
 }
 
+.info {
+	float: left;
+	width: 81%;
+	margin-top: 3px;
+}
+
 .breaking_news {
 	width: 100%;
-	height: auto;
+	height: 98px;
 	line-height: 29px;
 	margin-bottom: 10px;
 	text-align: center;

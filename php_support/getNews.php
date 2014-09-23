@@ -22,12 +22,12 @@
 
 			if ($breaking_news) { 
 				echo ("<div class='news'><div class='breaking_news'>
-						<img class='image_logo' src='images/zerozero.png'>" 
-					  . "<div class='time_container'>" . $time . "</div>"
+						<div class='image'><img class='image_logo' src='images/zerozero.png'></div>" 
+					  . "<div class='info'><div class='time_container'>" . $time . "</div>"
 					  . "<div class='breaking_news_link'><a class='news_link' href='" . $item_link  . "' >" 
 					  . $item_title . "</a></div>"
 					  . "<br><div class='breaking_news_item_description'>" . $item_description . "</div>"
-					  . "</div>"
+					  . "</div></div>"
 				);
 				$breaking_news = False;
 			}
