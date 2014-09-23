@@ -1,0 +1,90 @@
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+/*=========================================================================== */
+/*-------------------------------- NAVIGATION ------------------------------- */
+/*=========================================================================== */
+
+#navigation_container {
+	height: 100%;
+	float: left;
+	width: 18%;
+	border-right: 1px solid #333;
+}
+
+#navigation_container h1 {
+	padding-left: 6%;
+}
+
+#navigation_contents {
+	list-style-type: none;
+	height: 85%;
+	padding: 1%;
+}
+
+#navigation_contents li {
+	margin-left: 15%;
+}
+
+#navigation_contents a {
+	text-decoration: none;
+	color: #003777;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 2.21;
+}
+
+#navigation_contents a:visited {color:#333; }  /* visited link */
+#navigation_contents a:hover {color:#959595; }  /* mouse over link */
+#navigation_contents a:active {color:#959595; }  /* selected link */
+
+.logo {
+	width: 100%;
+}
+
+#overall_container {
+   min-height:100%;
+   position:relative;
+}
+
+#container {
+   height: 82.6%
+}
+
+.news {
+	font-size: small;
+	width: 100%;
+	text-align: center;
+}
+
+.rssOutput {
+	width: 25%;
+	padding: 1%;
+	float: left;
+	clear: right;
+	margin-right: 2%;
+}
+
+.logo {
+	height: 88px;
+	width: 320px;
+	text-align: center;
+}
+
+.rssOutput a{
+	list-style-type: none;
+	text-decoration: none;
+	color: darkblue;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+}
+
+.rssOutput a:hover {
+	color: crimson;
+}
+
+#copyright {
+	padding: 0 0 0 6%;
+}
