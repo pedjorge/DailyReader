@@ -13,7 +13,7 @@
 		<meta http-equiv="refresh" content="900">
 	    
 		<link rel="icon" href="favicon.ico" />
-		
+
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="js/show_hide.js"></script>
 
@@ -48,14 +48,17 @@
 			<div class="news_container">
 				<?php showRSS("http://feeds.feedburner.com/PublicoRSS", "3"); ?>
 			</div>
-		<!--	<div class="news_container">
-				<?php showRSS("http://www.josesaramago.org/category/noticias/feed/", "4"); ?>
+			<div class="news_container">
+				<?php showRSS("http://feeds.bbci.co.uk/news/rss.xml", "4"); ?>
+		    </div>
+		    <!-- <div class="news_container">
+				<?php showRSS("http://www.guardian.co.uk/uk/rss", "6"); ?>
+		    </div>
+		    <div class="news_container">
+				<?php showRSS("http://www.telegraph.co.uk/news/uknews/rss", "7"); ?>
 			</div>
 			<div class="news_container">
-				<?php showRSS("http://feeds.ojogo.pt/OJ-Ultimas", "4"); ?>
-		    </div>
-			<div class="news_container">
-				<?php showRSS("http://www.abola.pt/rss/index.aspx", "5"); ?>
+				<?php showRSS("http://www.josesaramago.org/category/noticias/feed/", "5"); ?>
 			</div> -->
 		</div>
 		<div style="clear:both;"></div> 

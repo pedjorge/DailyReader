@@ -2,7 +2,7 @@ $(document).ready(function () {
 	
 				$('.news li').click(function () {
 
-					var text = $(this).children('p');
+					var text = $(this).children('.old_news_item_description');
 
 					// Check if description is empty
 					if(text.html().replace(/\s|&nbsp;/g, '').length != 0) {

@@ -10,7 +10,8 @@
 		$x=$xmlDoc->getElementsByTagName('item');
 
 		//array for images
-		$images = array("zerozero.png","visao.png","expresso.png", "publico.png", "saramago.png");
+		$images = array("zerozero.png","visao.png","expresso.png", "publico.png", "bbc.png", 
+					    "saramago.png", "guardian.png");
 
 		$breaking_news = True;					
 		for ($i=0; $i<=5; $i++) {
@@ -45,7 +46,7 @@
 						  . "<span>+</span>"
 						  . "<a class='link' href='" . $item_link  . "' target='_blank'><img src='images/link.png' height='17px' width='19px'></a>"
 						  . "<br>
-						  	<p class='old_news_item_description'>" . $item_description . "</p>"
+						  	<div class='old_news_item_description'>" . $item_description . "</div>"
 						  . "</li>"
 					);
 			} // else
