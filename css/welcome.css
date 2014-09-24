@@ -127,6 +127,36 @@ h1 {
 	box-shadow: 1px 1px 15px #d1d1d1;
 }
 
+.news {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.news li {
+	position:relative;
+	cursor:pointer;
+}
+
+.news span {
+	position:absolute;
+	right:5px; 
+	top:0;
+	margin-top: -5px;
+	color:#ccc;
+	font-size:13px;
+}
+
+.link {
+	opacity: 0.3;
+	float: right;
+	margin-right: 20px;
+}
+
+.link:hover {
+	opacity: 1;
+}
+
 h2 {
 	box-shadow: 1px 1px 15px;
 	padding: 10px;
@@ -191,6 +221,7 @@ h2 {
 
 .old_news_item_description {
 	color: rgba(100, 149, 237, 0.62);
+	display: none;
 	width: auto;
 	height: auto;
 	line-height: 29px;

@@ -25,26 +25,31 @@
 			list($time,$hour,$minute) = $timeparts;
 
 			if ($breaking_news) { 
-				echo ("<div class='news'><div class='breaking_news'>
-						<div class='image'><img class='image_logo' src='images/" . $images[$index] . "'></div>" 
-					  . "<div class='info'><div class='time_container'>" . $time . "</div>"
-					  . "<div class='breaking_news_link'><a class='news_link' href='" . $item_link  . "' >" 
-					  . $item_title . "</a></div>"
-					  . "<br><div class='breaking_news_item_description'>" . $item_description . "</div>"
-					  . "</div></div>"
+				echo ("<ul class='news'>
+					   <li class='breaking_news'>
+					   <div class='image'><img class='image_logo' src='images/" . $images[$index] . "'></div>" 
+					   . "<div class='info'><div class='time_container'>" . $time . "</div>"
+					   . "<div class='breaking_news_link'><a class='news_link' href='" . $item_link  . "' >" 
+					   . $item_title . "</a></div>"
+					   . "<br><div class='breaking_news_item_description'><p>" . $item_description . "</p></div>"
+					   . "</div></li>"
 				);
 				$breaking_news = False;
 			}
 			else {
-					echo ("<div class='old_news'>" 
-					  . "<div class='old_time_container'>" . $time . "</div>"
-					  . "<div class='old_news_link'><a class='news_link' href='" . $item_link  . "' >" 
-					  . $item_title . "</a></div>"
-					  . "<br><div class='old_news_item_description'>" . $item_description . "</div>"
-					  . "</div>"
+					echo ("<li class='old_news'>" 
+						  . "<div class='old_time_container'>" . $time . "</div>"
+						  . "<div class='old_news_link'>
+						  		<a class='news_link' href='" . $item_link  . "' >" . $item_title . "</a>
+						    </div>"
+						  . "<span>+</span>"
+						  . "<a class='link' href='" . $item_link  . "' target='_blank'><img src='images/link.png' height='17px' width='19px'></a>"
+						  . "<br>
+						  	<p class='old_news_item_description'>" . $item_description . "</p>"
+						  . "</li>"
 					);
 			} // else
 		} // for
-		echo "</div>";
+		echo "</ul>";
 	} // function
 ?>

@@ -6,12 +6,16 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/welcome.css" />
-		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono">
+	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans" />
+
 		<!-- Refresh every 15 minutes -->
 		<meta http-equiv="refresh" content="900">
-	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono">
-	    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans" />
+	    
 		<link rel="icon" href="favicon.ico" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/show_hide.js"></script>
 
 		<?php include 'php_support/getNews.php'; ?>
 		
@@ -44,10 +48,10 @@
 			<div class="news_container">
 				<?php showRSS("http://feeds.feedburner.com/PublicoRSS", "3"); ?>
 			</div>
-			<div class="news_container">
+		<!--	<div class="news_container">
 				<?php showRSS("http://www.josesaramago.org/category/noticias/feed/", "4"); ?>
 			</div>
-		<!--	<div class="news_container">
+			<div class="news_container">
 				<?php showRSS("http://feeds.ojogo.pt/OJ-Ultimas", "4"); ?>
 		    </div>
 			<div class="news_container">
