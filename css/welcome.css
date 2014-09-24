@@ -220,15 +220,17 @@ h2 {
 }
 
 .old_news_item_description {
-	color: rgba(100, 149, 237, 0.62);
-	display: none;
-	width: auto;
+	color: darkblue;
+	background-color: ghostwhite;
+	border-radius: 5px;
+	width: 87%;
 	height: auto;
 	line-height: 29px;
-	margin-top: 10px;
+	margin: 10px 0 0 7%;
 	text-align: justify;
 	font-family: 'Prociono', serif;
 	padding: 0 10px;
+	display: none;
 }
 
 .old_news {
