@@ -19,6 +19,3 @@ function showRSS(str) {
 	xmlhttp.open("GET","getrss.php?q="+str,true);
 	xmlhttp.send();
 }
-		
-// Make it portuguese proof
-<?php header('Content-Type: text/html; charset=utf8'); ?>

@@ -19,6 +19,9 @@
 
 		<?php include 'php_support/getNews.php'; ?>
 		
+		<!-- Make it portuguese proof -->
+		<?php header('Content-Type: text/html; charset=utf8'); ?>
+		
 	</head>
 	<body>
 		<header>
